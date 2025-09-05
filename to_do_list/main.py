@@ -8,6 +8,9 @@ from funcoes_tarefas import (
 
 def main():
     tarefas = carregar_tarefas()
+    print("======================================================")
+    print("=============== Organizador de Tarefas: ==============")
+    print("======================================================")
 
     while True:
         print("\nComandos: adicionar, listar, concluir, remover, sair")
